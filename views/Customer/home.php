@@ -40,7 +40,7 @@ if(mysqli_query($connection,$sql)){
 
     <title>TasteBite Restaurant</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
     
 </head>
 

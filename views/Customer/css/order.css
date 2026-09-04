@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #222;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding: 80px 20px 50px;
+}
+
+
+/* Full Order Card */
+
+.order-box {
+    width: 100%;
+    max-width: 520px;
+
+    background: #ffffff;
+    border-radius: 16px;
+
+    padding: 32px;
+
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+
+/* Heading */
+
+.order-box h2 {
+    text-align: left;
+    font-size: 28px;
+    margin-bottom: 22px;
+}
+
+
+/* Order Summary */
+
+.order-summary {
+    background: #fff8eb;
+
+    border: 1px solid #f0d6a2;
+    border-radius: 10px;
+
+    padding: 18px;
+
+    margin-bottom: 25px;
+}
+
+.order-summary p {
+    margin: 6px 0;
+    font-size: 15px;
+}
+
+
+/* Form */
+
+.order-box form {
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    background: transparent;
+}
+
+
+/* Labels */
+
+form label {
+    display: block;
+
+    margin-bottom: 7px;
+    margin-top: 18px;
+
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+/* Inputs */
+
+form input,
+form select {
+    width: 100%;
+
+    padding: 12px 14px;
+
+    border: 1px solid #d8d8d8;
+    border-radius: 8px;
+
+    font-size: 14px;
+
+    outline: none;
+}
+
+form input:focus,
+form select:focus {
+    border-color: #d99a28;
+}
+
+
+/* Button */
+
+form button {
+    width: 100%;
+
+    margin-top: 25px;
+
+    padding: 14px;
+
+    border: none;
+    border-radius: 8px;
+
+    background: #d99a28;
+    color: white;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #bd7f19;
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 20px 15px;
+    }
+
+    .order-box {
+        padding: 22px;
+    }
+}

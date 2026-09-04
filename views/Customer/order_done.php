@@ -14,7 +14,7 @@
             </div>
             <h2>Order Successful</h2>
             <p>Thank you for your order! Your order has been placed successfully.</p>
-            <a href="index.php" class="btn">Back to Home</a>
+            <a href="home.php" class="btn">Back to Home</a>
         </div>
 
     </div>

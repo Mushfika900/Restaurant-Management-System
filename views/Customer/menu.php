@@ -16,7 +16,7 @@
         <h2>TasteBite</h2>
 
         <ul>
-            <li><a href="index.php">Home</a></li>
+            <li><a href="home.php">Home</a></li>
             <li><a href="about.php">About</a></li>
             <li><a href="contact.php">Contact</a></li>
             <li><a href="reservation.php">Reservation</a></li>
@@ -245,6 +245,7 @@
      </div>
 
     </section>
+    <script src="js/menu.js"></script>
 
 </body>
 
