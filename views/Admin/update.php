@@ -13,8 +13,8 @@ $row=mysqli_fetch_assoc($result);
     <title>Edit Reservation</title>
 </head>
 <body>
-    <h2>Edit Reservation</h2>
-    <form method="POST" action="/Tastebite/controllers/reservationController.php">
+    <h2>Update Reservation</h2>
+    <form method="POST" action="/Tastebite/controllers/reservationControl.php">
         <input type="hidden" name="Id" value="<?php echo $row['Id']; ?>">
         <label for="name">Name:</label>
         <input type="text" name="name" value="<?php echo $row['Name']; ?>" required><br>

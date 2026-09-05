@@ -40,7 +40,7 @@ require_once __DIR__."/../../controllers/reservationControl.php";
                 <td><?php echo $row['Guests']; ?></td>
                 <td><?php echo $row['Message']; ?></td>
                 <td>
-                    <a href="udate.php?Id=
+                    <a href="update.php?Id=
                     <?php echo $row['Id']; 
                     ?>">Update</a>
                     <a href="delete.php?Id=
