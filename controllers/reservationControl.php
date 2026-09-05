@@ -1,5 +1,5 @@
 <?php
-require_once "../models/reservationModel.php";
+require_once __DIR__."/../models/reservationModel.php";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $Name = $_POST["name"];

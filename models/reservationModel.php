@@ -1,6 +1,6 @@
-o<?php
+<?php
 
-require_once "../config/database.php";
+require_once __DIR__."/../config/database.php";
 
 function addReservation($Name,$Email,$Phone,$Date,$Time,$Guests,$Message){
     global $connection;
