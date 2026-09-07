@@ -36,24 +36,3 @@ $row=mysqli_fetch_assoc($result);
 </html>
 
 
-<?php
-if(isset($_POST['update'])){
-
-    $name=$_POST['name'];
-    $email=$_POST['email'];
-    $phone=$_POST['phone'];
-    $date=$_POST['date'];
-    $time=$_POST['time'];
-    $guests=$_POST['guests'];
-    $message=$_POST['message'];
-
-    
-    if(updateReservation($Id,$name,$email,$phone,$date,$time,$guests,$message)){
-        echo "Reservation updated successfully.";
-    }
-     else {
-        echo "Error updating reservation.";
-    }
-}
-
-?>
